@@ -1,25 +1,25 @@
 class CalculatorTui < Formula
   desc "A command-line calculator with symbolic math support"
-  homepage "https://github.com/anomalyco/calculator-cli"
-  version "2.0.1"
+  homepage "https://github.com/Mcas-996/calculator-cli"
+  version "2.0.2"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/anomalyco/calculator-cli/releases/download/v2.0.1/calculator-tui-aarch64-apple-darwin.tar.xz"
-      sha256 "182552ba5ebced1b340cca84096f2d918ab2b92c16c3310f5cfd3beb1521115f"
+      url "https://github.com/Mcas-996/calculator-cli/releases/download/v2.0.2/calculator-tui-aarch64-apple-darwin.tar.xz"
+      sha256 "9d53f418a2198d8e4e5934475ef16f22090df693fb19b0aadcfe38d665dcf4f5"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/anomalyco/calculator-cli/releases/download/v2.0.1/calculator-tui-x86_64-apple-darwin.tar.xz"
-      sha256 "e77291ed8321b29ad11d8455348357c3fa238cf2622d5c271600a7ea18e8f91a"
+      url "https://github.com/Mcas-996/calculator-cli/releases/download/v2.0.2/calculator-tui-x86_64-apple-darwin.tar.xz"
+      sha256 "cec49087517d0469b5ccda8be667c437bef3f48438bdeba6cec20e8cc62b7d15"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/anomalyco/calculator-cli/releases/download/v2.0.1/calculator-tui-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "4aa0ae903fd0eb0b966ecad510a824a4cd09b2602c9f223eaf36ee4afd3d7ff2"
+      url "https://github.com/Mcas-996/calculator-cli/releases/download/v2.0.2/calculator-tui-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "57e2a51f4c947abd35de5a8ec6404dbec6dc46e2aa3c727f414e5d0d874bd124"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/anomalyco/calculator-cli/releases/download/v2.0.1/calculator-tui-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "246a84e96961b1620429bb0ed6aa605cd7f12d7892881d1d96ed5be2dfcf8e3f"
+      url "https://github.com/Mcas-996/calculator-cli/releases/download/v2.0.2/calculator-tui-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "8cca156812e4a46cf3d7d40398f4040bd22dfec9efc1dc3103232a12b035e911"
     end
   end
   license "MIT"

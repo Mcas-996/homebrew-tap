@@ -1,25 +1,25 @@
 class CalculatorTui < Formula
   desc "A command-line calculator with symbolic math support"
   homepage "https://github.com/Mcas-996/calculator-cli"
-  version "2.0.2"
+  version "2.0.3"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/Mcas-996/calculator-cli/releases/download/v2.0.2/calculator-tui-aarch64-apple-darwin.tar.xz"
-      sha256 "9d53f418a2198d8e4e5934475ef16f22090df693fb19b0aadcfe38d665dcf4f5"
+      url "https://github.com/Mcas-996/calculator-cli/releases/download/v2.0.3/calculator-tui-aarch64-apple-darwin.tar.xz"
+      sha256 "8a79b1fd88951c56f1731953693604f8e7dc76b8fed371fd61cb86014133e983"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/Mcas-996/calculator-cli/releases/download/v2.0.2/calculator-tui-x86_64-apple-darwin.tar.xz"
-      sha256 "cec49087517d0469b5ccda8be667c437bef3f48438bdeba6cec20e8cc62b7d15"
+      url "https://github.com/Mcas-996/calculator-cli/releases/download/v2.0.3/calculator-tui-x86_64-apple-darwin.tar.xz"
+      sha256 "9407362e605aafdd3068e3b479796a4b2e07238a2dafe8c1c271f9bc84040ae7"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/Mcas-996/calculator-cli/releases/download/v2.0.2/calculator-tui-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "57e2a51f4c947abd35de5a8ec6404dbec6dc46e2aa3c727f414e5d0d874bd124"
+      url "https://github.com/Mcas-996/calculator-cli/releases/download/v2.0.3/calculator-tui-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "9ce306d207055b6d7b09614da9e40d1ec6b702ef74124bf3cee8bf93cbcfe531"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/Mcas-996/calculator-cli/releases/download/v2.0.2/calculator-tui-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "8cca156812e4a46cf3d7d40398f4040bd22dfec9efc1dc3103232a12b035e911"
+      url "https://github.com/Mcas-996/calculator-cli/releases/download/v2.0.3/calculator-tui-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "1e9372f1eb5ebefa00f66cfe00a793fb5214866e446d62dda672922e8402617b"
     end
   end
   license "MIT"

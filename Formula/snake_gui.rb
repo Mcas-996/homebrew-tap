@@ -1,25 +1,25 @@
 class SnakeGui < Formula
   desc "A Snake game with a macroquad desktop GUI."
   homepage "https://github.com/Mcas-996/rs_snake_game"
-  version "0.6.0"
+  version "0.7.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/Mcas-996/rs_snake_game/releases/download/v0.6.0/snake_gui-aarch64-apple-darwin.tar.xz"
-      sha256 "26d5524ab80bce948e5d01e41da7fcb71be53c690c1b12aae692a0658f0c69fd"
+      url "https://github.com/Mcas-996/rs_snake_game/releases/download/v0.7.0/snake_gui-aarch64-apple-darwin.tar.xz"
+      sha256 "2dabaf6e43383809ae34446cfcc3199abfb71e59c56fcc5819222afeb9c24ca6"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/Mcas-996/rs_snake_game/releases/download/v0.6.0/snake_gui-x86_64-apple-darwin.tar.xz"
-      sha256 "970c728f267e839f1aedc2aeacaba4807d9def01346becce9680b49215a6b8e6"
+      url "https://github.com/Mcas-996/rs_snake_game/releases/download/v0.7.0/snake_gui-x86_64-apple-darwin.tar.xz"
+      sha256 "e2fc3ede6697d8bbb0a0dd4de7dbccd5dd7b489db25fb6a7acad601ad96ae8fa"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/Mcas-996/rs_snake_game/releases/download/v0.6.0/snake_gui-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "fdc3ce939ab5d9b103850b215da8003605f63973f80721c32621364fb81d868f"
+      url "https://github.com/Mcas-996/rs_snake_game/releases/download/v0.7.0/snake_gui-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "0f45575ccab5b5afb565fed6fc60cace55212a7244229ffba55df42a46482abe"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/Mcas-996/rs_snake_game/releases/download/v0.6.0/snake_gui-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "22ae5ff55d7df93668523e46233d7d4259eb5842824798b882b88cfc7b6984a4"
+      url "https://github.com/Mcas-996/rs_snake_game/releases/download/v0.7.0/snake_gui-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "90d527d484b2a08dcb53978a8c4a7e9d5f0806d14f61bd142ac28c1672f71842"
     end
   end
   license "Apache-2.0"
